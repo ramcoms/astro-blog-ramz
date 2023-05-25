@@ -13,7 +13,7 @@ export const MENU_LINKS = [
 	},
 	{
 		title: "Numbers",
-		path: "/numbers",
+		path: "/tags/numbers",
 	},
 ];
 
