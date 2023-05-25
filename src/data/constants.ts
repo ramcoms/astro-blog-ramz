@@ -11,12 +11,16 @@ export const MENU_LINKS = [
 		title: "Blog",
 		path: "/posts",
 	},
+	{
+		title: "Numbers",
+		path: "/numbers",
+	},
 ];
 
 // ! Remember to add your own socials
 export const SOCIAL_LINKS = {
-	github: "https://github.com/chrismwilliams/astro-cactus",
-	twitter: "https://github.com/chrismwilliams/astro-cactus",
-	discord: "https://github.com/chrismwilliams/astro-cactus",
+	github: "https://github.com/ramcoms",
+	twitter: "https://github.com/ramcoms",
+	instagram: "https://github.com/ramcoms",
 	email: "me@example.com",
 };
