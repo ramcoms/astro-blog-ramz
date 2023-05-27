@@ -5,7 +5,7 @@ import PostPreview from "@/components/blog/PostPreview";
 import SocialList from "@/components/SocialList";
 import { sortMDByDate } from "@/utils";
 
-const MAX_POSTS = 10;
+const MAX_POSTS = 15;
 const allPosts = await getCollection("post");
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 ---
@@ -14,7 +14,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 	<section>
 		<!-- <h1 class="title mb-6">Ey</h1> -->
 		<p class="mb-4">
-			Ey, I’m Ram, 30. I crunch numbers for my day job, but dabble in productivity, minimalism, and web development during my free time.
+			Ey, I’m Ram. I crunch numbers for my day job, but dabble in productivity, minimalism, and web development during my free time.
 			</p>
 			<p>
 			If you somehow ended up on this tiny web zone, I’d like to assume you’re a fellow personal finance sicko or just really bored. In either case, welcome.
@@ -22,7 +22,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 		<SocialList />
 	</section>
 	<section aria-label="Blog post list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Posts</h2>
+		<h2 class="title mb-4 text-xl">Recent Posts</h2>
 		<ul class="space-y-4 sm:space-y-2">
 			{
 				allPostsByDate.map((p) => (
@@ -34,7 +34,8 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 		</ul>
 	</section>
 	
-	<section class="mt-16">
+	<!-- Technologies -->
+	<!-- <section class="mt-16">
 		<h2 class="title mb-4 text-xl">Technologies</h2>
 		<ul class="space-y-4 sm:space-y-2">
 			<li>
@@ -47,7 +48,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 				</a>:
 				<p class="inline-block sm:mt-2">Build fast websites, faster.</p>
 			</li>
-			<!-- <li>
+			<li>
 				<a
 					href="https://docs.astro.build/en/guides/integrations-guide/image/"
 					target="_blank"
@@ -58,7 +59,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 				<p class="inline-block sm:mt-2">
 					An Astro integration for optimising images in Astro projects.
 				</p>
-			</li> -->
+			</li>
 			<li>
 				<a
 					href="https://tailwindcss.com"
@@ -81,7 +82,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 				</a>:
 				<p class="inline-block sm:mt-2">Simple and easy-to-use markup language.</p>
 			</li>
-			<!-- <li>
+			<li>
 				<a
 					href="https://mdxjs.com/"
 					target="_blank"
@@ -90,8 +91,8 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 					>MDX
 				</a>:
 				<p class="inline-block sm:mt-2">Markdown for the component era.</p>
-			</li> -->
-			<!-- <li>
+			</li>
+			<li>
 				<a
 					href="https://github.com/vercel/satori"
 					target="_blank"
@@ -100,7 +101,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 					>Satori
 				</a>:
 				<p class="inline-block sm:mt-2">Generating png Open Graph images for blog posts</p>
-			</li> -->
+			</li>
 		</ul>
-	</section>
+	</section> -->
 </PageLayout>
