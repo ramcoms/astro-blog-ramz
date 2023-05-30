@@ -28,18 +28,24 @@ const url = new URL(Astro.request.url);
 			class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
 			aria-current={url.pathname === "/" ? "page" : false}
 		>
-		
+					
 			<svg
 				class="me-3 h-10 w-6 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-20 sm:w-12"
 				aria-hidden="true"
 				focusable="false"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
-				viewBox="0 0 272 480"
+				viewBox="0 200 600 400"
 			>
 				<title>Logo</title>
-				<!-- <img src="../../../public/r-cartoon.ico" alt="cartoon"> -->
-				<path
+			
+				<g transform="translate(0.000000,525.000000) scale(0.100000,-0.100000)" fill="#B04304" stroke="none">
+					<path d="M2565 5009 c-116 -13 -124 -16 -142 -53 -13 -28 -14 -53 -8 -148 8 -128 19 -161 55 -166 13 -2 73 4 132 13 176 29 344 18 763 -48 357 -57 520 -88 565 -110 24 -12 25 -17 24 -87 -3 -146 -66 -259 -398 -712 -91 -124 -110 -178 -109 -303 2 -145 17 -223 48 -255 24 -24 31 -25 128 -24 56 1 122 6 147 13 145 40 422 162 547 243 l69 45 -4 94 c-3 79 -25 199 -37 199 -1 0 -74 -31 -161 -69 -213 -92 -432 -167 -446 -153 -7 7 5 33 43 86 128 182 162 236 209 332 78 157 92 225 92 439 1 200 -14 338 -41 401 -45 100 -117 121 -731 215 -113 17 -250 37 -305 45 -110 15 -316 16 -440 3z"/>
+					<path d="M1330 3313 c-43 -7 -92 -24 -171 -60 -78 -35 -99 -58 -99 -106 0 -30 38 -216 50 -244 15 -35 59 -29 153 20 l82 42 681 0 c719 0 726 0 709 -44 -29 -73 -82 -289 -110 -450 -36 -202 -75 -374 -120 -520 -31 -103 -31 -136 -3 -275 29 -146 42 -161 135 -160 205 4 674 183 820 312 l41 37 -13 80 c-19 108 -46 196 -62 202 -7 3 -68 -22 -136 -55 -219 -109 -556 -227 -579 -204 -7 7 -4 38 11 99 11 48 30 147 41 218 30 183 44 244 85 375 48 153 54 237 27 397 -42 240 -79 303 -192 322 -54 9 -1301 22 -1350 14z"/>
+					<path d="M570 2132 c-108 -3 -118 -7 -129 -47 -10 -37 -6 -57 33 -180 41 -129 10 -118 327 -116 151 0 379 4 507 7 212 6 232 6 232 -10 0 -9 -49 -90 -109 -179 -141 -211 -225 -360 -327 -580 -48 -103 -115 -226 -160 -295 -98 -149 -101 -166 -49 -321 46 -139 63 -156 149 -147 32 3 161 35 285 70 124 36 334 95 466 131 132 37 249 69 260 72 41 11 46 22 26 61 -10 21 -21 55 -23 78 -3 23 -13 57 -23 77 -9 19 -18 44 -19 54 -4 26 -47 28 -174 8 -129 -20 -281 -54 -452 -100 -145 -40 -150 -40 -150 -20 0 24 123 272 196 396 103 173 392 595 452 660 28 31 52 66 52 77 0 56 -66 259 -94 291 l-21 23 -590 -3 c-324 -2 -624 -5 -665 -7z"/>
+				</g>
+
+				<!-- <path
 					d="M181.334 93.333v-40L226.667 80v40l-45.333-26.667ZM136.001 53.333 90.667 26.667v426.666L136.001 480V53.333Z"
 					fill="#B04304"></path>
 				<path
@@ -48,10 +54,12 @@ const url = new URL(Astro.request.url);
 				<path
 					d="m136 53.333 45.333-26.666v120L226.667 120V80L272 53.333V160l-90.667 53.333v240L136 480V306.667L45.334 360V240l45.333-26.667v53.334L136 240V53.333Z"
 					fill="#53C68C"></path>
-				<path d="M45.334 240 0 213.334v120L45.334 360V240Z" fill="#B04304"></path>
+				<path d="M45.334 240 0 213.334v120L45.334 360V240Z" fill="#B04304"></path> -->
+
 			</svg>
 			<span class="text-xl font-bold sm:text-2xl">ramzzz</span>
 		</a>
+		
 		<nav
 			id="navigation-menu"
 			class="absolute -inset-x-4 top-14 hidden flex-col items-end gap-y-4 rounded-md bg-[--theme-menu-bg] py-4 text-accent shadow backdrop-blur group-[.menu-open]:z-50 group-[.menu-open]:flex sm:static sm:z-auto sm:-ms-4 sm:mt-1 sm:flex sm:flex-row sm:items-center sm:divide-x sm:divide-dashed sm:divide-accent sm:rounded-none sm:bg-transparent sm:py-0 sm:shadow-none sm:backdrop-blur-none"
