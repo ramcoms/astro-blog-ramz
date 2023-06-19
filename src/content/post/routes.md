@@ -19,7 +19,7 @@ Another thing is pollution. Smoke is another foe on the road. I could always clo
 
 I like the adrenaline though. But it’s exhausting.
 
-Recently, I’ve been taking the longer route. Along the way, there is a long stretch of an elevated highway which made the view possible. While there are some bumps in the road, the view of the sky makes one’s patient fairly longer.
+Recently, I’ve been taking the longer route. Along the way, there is a long stretch of an elevated highway which made the view possible. While there are some bumps in the road, the view of the sky makes one’s patience fairly longer.
 
 A few buildings block the horizon but they probably make it more scenic. The combination of orange and blue hues signals the approaching nighttime. I could just slow down a bit without some cars honking on my tail.
 
