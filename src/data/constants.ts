@@ -7,6 +7,10 @@ export const MENU_LINKS = [
 	// 	title: "About",
 	// 	path: "/about",
 	// }
+	{
+		title: "Archives",
+		path: "/tags/musings",
+	},
 ];
 
 // ! Remember to add your own socials
