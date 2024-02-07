@@ -7,14 +7,6 @@ export const MENU_LINKS = [
 		title: "About",
 		path: "/about",
 	},
-	{
-		title: "Musings",
-		path: "/tags/musings",
-	},
-	{
-		title: "Numbers",
-		path: "/tags/numbers",
-	},
 ];
 
 // ! Remember to add your own socials
