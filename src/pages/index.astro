@@ -18,11 +18,19 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 			<br>
 			Look at you wandering in this tiny web zone.
 			<br>
-			This blog is an outlet for my musings, random thoughts mostly.
 			<br>
-			I'm no writer nor a life expert. I just write to express.
+			This blog is an outlet for my musings.
 			<br>
-			Maybe my words will ignite a spark within someone's soul.
+			<br>
+			I'm no writer nor a life expert. 
+			I just write to express, throwing out random thoughts to the world.
+			Perfect as reminders, and means for reminiscing and reflection.
+			For	myself.
+			<br>
+			<br>
+			Or maybe..
+			..my words will ignite a spark within someone's soul.
+			<br>
 			<br>
 			Well, welcome.
 		</p>
@@ -30,7 +38,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 	</section>
 
 	<section aria-label="Blog post list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Recent Posts</h2>
+		<h2 class="title mb-4 text-xl">Recent</h2>
 		<ul class="space-y-4 sm:space-y-2">
 			{
 				allPostsByDate.map((p) => (
@@ -112,4 +120,5 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 			</li>
 		</ul>
 	</section> -->
+	
 </PageLayout>
