@@ -1,0 +1,53 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@/layouts/Base";
+import PostPreview from "@/components/blog/PostPreview";
+import { sortMDByDate } from "@/utils";
+import SocialList from "@/components/SocialList";
+
+const allPosts = await getCollection("post");
+const allPostsByDate = sortMDByDate(allPosts);
+---
+
+<PageLayout meta={{ title: "Archives" }}>
+	<!-- <section>
+		<h1 class="title mb-6">zzz</h1>
+		<p class="mb-4">
+			Ey I’m Ram.
+			<br>
+			Look at you wandering in this tiny web zone.
+			<br>
+			<br>
+			This blog is an outlet for my musings.
+			<br>
+			<br>
+			I'm no writer nor a life expert. 
+			I just write to express, throwing out random thoughts to the world.
+			Perfect as reminders, and means for reminiscing and reflection.
+			For	myself.
+			<br>
+			<br>
+			Or maybe..
+			..my words will ignite a spark within someone's soul.
+			<br>
+			<br>
+			Well, welcome.
+		</p>
+		<SocialList />
+	</section> -->
+
+	
+	<section aria-label="Blog post list" class="mt-16">
+		<h2 class="title mb-4 text-xl">Net Worth Progress</h2>
+		<SocialList />
+		
+		<div class="mt-5">
+			<iframe title="Net Worth Progress" aria-label="Interactive line chart" id="datawrapper-chart-KVyQA" src="https://datawrapper.dwcdn.net/KVyQA/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="384" data-external="1"></iframe>
+		
+			<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");	for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+			</script>
+		</div>
+
+	</section>
+	
+</PageLayout>
