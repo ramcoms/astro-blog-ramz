@@ -62,3 +62,5 @@ why i want to escape,
 why the f i want to push myself.
 
 i lost my flow, 'til next time!
+
+https://youtu.be/5KfWAv6w-k0?si=18OcfXS34lYm0Oms
