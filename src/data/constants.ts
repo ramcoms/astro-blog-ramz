@@ -11,10 +11,10 @@ export const MENU_LINKS = [
 		title: "Archives",
 		path: "/archives",
 	},
-	{
-		title: "Numbers",
-		path: "/numbers",
-	},
+	// {
+	// 	title: "Numbers",
+	// 	path: "/numbers",
+	// },
 ];
 
 // ! Remember to add your own socials
