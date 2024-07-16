@@ -42,9 +42,9 @@
 		"typescript": "^5.0.4"
 	},
 	"dependencies": {
-		"@astrojs/prefetch": "^0.2.1",
-		"@astrojs/rss": "^2.3.2",
-		"astro": "2.3.0",
+		"@astrojs/prefetch": "^0.4.1",
+		"@astrojs/rss": "^4.0.7",
+		"astro": "^4.11.5",
 		"satori": "0.4.11",
 		"satori-html": "^0.3.2",
 		"sharp": "^0.31.3"
